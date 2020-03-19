@@ -11,7 +11,7 @@ import java.io.IOException;
 public class User extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
        response.setContentType("text/html;charset=utf-8");
-
+       System.out.println("哈哈哈");
 
 
     }
